@@ -54,6 +54,22 @@ export default class MasonryInfiniteScroller extends Component {
     this.setState(() => ({ instance }));
   }
 
+  componentWillReceiveProps(nextProps) {
+    const { packed, sizes, position } = this.props;
+
+    const instance = Bricks({
+      container: this.masonryContainer,
+      packed: packed,
+      sizes: sizes,
+      position: position
+    });
+
+    instance.resize(true);
+
+    // eslint-disable-next-line
+    this.setState(() => ({ instance }));
+  }
+
   componentDidUpdate(prevProps) {
     const { children } = this.props;
 
