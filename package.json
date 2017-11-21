@@ -1,6 +1,6 @@
 {
-  "name": "react-masonry-infinite",
-  "version": "1.2.1",
+  "name": "yundo-react-masonry-infinite",
+  "version": "1.2.2",
   "description": "React component for masonry infinite grid. Based on Bricks.js, React Infinite Scroller and React Masonry Layout.",
   "main": "./lib/index",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skoob13/react-masonry-infinite.git"
+    "url": "git+https://github.com/ydhn/react-masonry-infinite.git"
   },
   "keywords": [
     "react",
@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/skoob13/react-masonry-infinite/issues"
   },
-  "homepage": "https://skoob13.github.io/react-masonry-infinite",
+  "homepage": "https://github.com/ydhn/react-masonry-infinite",
   "dependencies": {
     "bricks.js": "^1.7.0",
     "prop-types": "^15.5.10",
