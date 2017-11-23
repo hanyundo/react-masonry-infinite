@@ -1,7 +1,5 @@
 # React Masonry Infinite
 
-[![npm](https://img.shields.io/npm/dy/localeval.svg)](https://npmjs.com/react-masonry-infinite)
-
 Very simple React.js component for masonry grid. Based on [Bricks.js](https://github.com/callmecavs/bricks.js), [React Infinite Scroller](https://github.com/CassetteRocks/react-infinite-scroller) and [React Masonry Layout](https://github.com/scarletsky/react-masonry-layout).
 
 Component is mostly suitable for static data, but can be used with dynamic with instance methods.
@@ -19,13 +17,13 @@ Component is mostly suitable for static data, but can be used with dynamic with 
 Using `NPM`
 
 ```sh
-  npm install --save react-masonry-infinite 
+  npm install --save react-masonry-infinite
 ```
 
 Using `yarn`
 
 ```sh
-  yarn add react-masonry-infinite 
+  yarn add react-masonry-infinite
 ```
 
 ### Basic example
