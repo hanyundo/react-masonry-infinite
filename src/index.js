@@ -55,7 +55,7 @@ export default class MasonryInfiniteScroller extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const { packed, sizes, position } = this.props;
+    const { packed, sizes, position } = nextProps;
 
     const instance = Bricks({
       container: this.masonryContainer,
